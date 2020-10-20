@@ -6,7 +6,10 @@
 
 ---
 
-1. <a href="https://github.com/heejung-choi/TIL/tree/master/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0">자료 구조 학습</a>
-2. <a href="https://github.com/heejung-choi/TIL/tree/master/dasp">데이터 아키텍처 준전문가(DASP) 학습 자료</a>
-3. <a href="https://github.com/heejung-choi/TIL/tree/master/%EA%B8%B0%EC%88%A0%EB%A9%B4%EC%A0%91">기술 면접 대비 </a>
-4. 
+- <a herf="https://github.com/heejung-choi/TIL/tree/master/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0">자료구조학습</a>
+- <a href="https://github.com/heejung-choi/TIL/tree/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4%20%EC%BD%94%EB%94%A9%EC%97%B0%EC%8A%B5">프로그래머스 코딩연습</a>
+- <a href="https://github.com/heejung-choi/TIL/tree/master/%EA%B8%B0%EC%88%A0%EB%A9%B4%EC%A0%91">기술면접</a>
+- <a herf="https://github.com/heejung-choi/TIL/tree/master/dasp">dasp</a>
+- <a href="https://github.com/heejung-choi/TIL/tree/master/%EC%8B%A0%EB%AC%B8%EA%B8%B0%EC%82%AC%2C%20pdf">신문기사, pdf</a>
+- <a href="https://github.com/heejung-choi/TIL/tree/master/%EA%B8%B0%ED%83%80">기타 </a>
+
