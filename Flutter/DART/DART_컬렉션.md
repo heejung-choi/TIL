@@ -6,7 +6,7 @@
 - MAP: '키'와 '값'의 형태로 저장하고 '키'를 기반으로 매칭되는 '값'을 바로 접근 가능한 컬렉션 타입(파이썬의 사전과 유사함)
 - Set: 중복된 데이터를 제거하고 데이터를 저장하는 컬렉션 타입(파이썬의 집합과 유사함)
 
-### LIST 
+## LIST 
 - CRUD:Create, Read, Update, Delete
 
 ```dart
@@ -71,3 +71,65 @@ void main() {
   print(myList);
 }
 ```
+## map
+- CRUD: Create, Read, Update, Delete
+
+```dart
+void main() {
+  //create
+  //map에 넣을 타입을 키/값 각각 <키타입, 값타임>에 명시
+  Map<String, int> myDict = {
+    'DaveLee': 1,
+    'Funcoding': 2,
+    'David': 3      
+  };
+  
+  print(myDict);
+  print(myDict.runtimeType);
+  myDict['Kate'] = 4;//새로운 키와 값으로 키/값 추가 가능
+  
+  //Read
+  print(myDict['kate']);
+  print(myDict.keys);  //키 만 가져오기
+  print(myDict.values);//값 만 가져오기
+  print(myDict.entries);//키/값 모두 가져오기
+  
+  var myDictKeys = myDict.keys;
+  List<String> myDictKeyList = myDictKeys.toList() ;
+  print(myDictKeyList);
+  
+  //Update
+  myDict['DaveLee'] = 4;
+  print(myDict);
+  
+  //Delete
+  myDict.remove('DaveLee');
+  print(myDict);
+}
+```
+
+추가자료
+```dart
+void main() {
+  //create
+  //map에 넣을 타입을 키/값 각각 <키타입, 값타임>에 명시
+  Map<String, int> myDict = {
+    'DaveLee': 1,
+    'Funcoding': 2,
+    'David': 3      
+  };
+  
+  //Map에 특정 키/값이 있는지 확인하는 기능
+  print(myDict.containsKey('DaveLee'));
+  print(myDict.containsValue(5));
+  
+  //Map 변수에 또다른 Map 변수 일괄추가
+  Map<String, int> myDict2 = {
+    'korea' : 1,
+    'Japan' : 2
+  };
+  
+  myDict.addAll(myDict2);
+  print(myDict);
+ 
+}```
