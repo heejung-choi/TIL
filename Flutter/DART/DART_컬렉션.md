@@ -133,3 +133,45 @@ void main() {
   print(myDict);
  
 }```
+
+## Set
+- CRUD: Create, Read, Update(x), Delete
+- 집합은 수정은 안되며, 인덱스 번호로 아이템을 접근할 수 없음
+
+```dart
+void main() {
+  //create
+  Set<String> data = {'a','b','c'};
+  
+  data.add('d');
+  print(data);
+  data.add('a');//중복은 안들어감
+  print(data);
+  
+  //Read
+  print(data);
+  
+  //Delete
+  data.remove('a');
+  print(data);
+}```
+
+```dart
+void main() {
+  //create
+  //set에 넣을 타입을 <>에 명시
+  Set<String> data1 = {'a','b','c'};
+  Set<String> data2 = {'b','c','d'};
+  
+  print(data1.contains('a'));
+  print(data1.containsAll(['a','b']));
+  print(data1.containsAll(['a','b','d']));
+  print(data1.length);
+  
+  //교집합
+  var data3 = data1.intersection(data2);        
+  print(data3);
+  //차집합
+  var data4 = data1.difference(data2);
+  print(data4);
+}```
